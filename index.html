@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zeldinha</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            canvas{
+                display:block;
+                margin: 0 auto;
+                margin-top: 2%;
+            }
+
+            @font-face {
+                font-family: tloz;
+                src: url(fonts/tloz.ttf);
+            }
+            
+            @font-face {
+                font-family: triforce;
+                src: url(fonts/triforce.ttf);
+            }
+            
+            body {
+                background-color: snow;
+            }
+
+            h1 {
+                font-family: triforce;
+                text-align: center;
+                font-size: 50px;
+                color: #0d4d0dba;
+            }
+
+            span {
+                font-family: tloz;
+                font-size: 88px;
+                font-weight: normal;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Zeldinha da Alegria <span>E</span></h1>
+        <canvas id='canvas' width="600" height="400"></canvas>
+    </body>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/canvasApp.js"></script>
+</html>
